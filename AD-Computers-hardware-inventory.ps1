@@ -36,5 +36,5 @@ foreach ($Computer in $Computers) {
         }
         $ComputersInfoList | select Computername,Manufacturer,Model,SerialNumber,Description,OperatingSystem,Ram,Disk,ProcessorName,LoggedinUser,UserFullName,LastLogondate | export-csv -Append C:\Users\rs-a\Desktop\AD-inventory.csv -nti -Encoding UTF8
     }
+    dupa dupa
     
-}
